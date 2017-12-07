@@ -11,6 +11,7 @@ struct JokeStore {
   /// we NEED more jokes here!!!
   private var storage: [Joke] = [
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
+    Joke(description: "My co-worker told me that I suck at OOP.", punchline: "I can't object")
   ]
 }
 
