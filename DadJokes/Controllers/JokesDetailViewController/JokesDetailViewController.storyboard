@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kWh-N9-xfx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Jokes Detail View Controller-->
+        <scene sceneID="GJQ-CT-s6M">
+            <objects>
+                <viewController id="kWh-N9-xfx" customClass="JokesDetailViewController" customModule="DadJokes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="neO-LX-S3B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;punchline goes here&gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg7-eU-X9j">
+                                <rect key="frame" x="16" y="161.5" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VUN-cG-Isd" firstAttribute="trailing" secondItem="mg7-eU-X9j" secondAttribute="trailing" constant="16" id="0wV-ov-Tl0"/>
+                            <constraint firstItem="mg7-eU-X9j" firstAttribute="leading" secondItem="VUN-cG-Isd" secondAttribute="leading" constant="16" id="5bx-1N-OPT"/>
+                            <constraint firstItem="mg7-eU-X9j" firstAttribute="centerY" secondItem="VUN-cG-Isd" secondAttribute="centerY" multiplier="0.5" id="acJ-lb-fq2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VUN-cG-Isd"/>
+                    </view>
+                    <connections>
+                        <outlet property="jokePunchlineLabel" destination="mg7-eU-X9j" id="ZKG-04-Z4E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJ5-aP-3Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-105" y="-18"/>
+        </scene>
+    </scenes>
+</document>
