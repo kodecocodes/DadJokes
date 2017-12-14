@@ -24,6 +24,7 @@ extension JokesTableViewController {
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
     let joke = jokeStore[indexPath.row]
+    cell.textLabel!.numberOfLines = 0
     cell.textLabel!.text = joke.description
     return cell
   }
