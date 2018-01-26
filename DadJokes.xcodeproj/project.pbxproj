@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1820A1C6201B8D0F007D11D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820A1C5201B8D0F007D11D1 /* LaunchScreen.storyboard */; };
 		603BBF251FD9206F0087DC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BBF241FD9206F0087DC46 /* AppDelegate.swift */; };
 		603BBF2C1FD9206F0087DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603BBF2B1FD9206F0087DC46 /* Assets.xcassets */; };
-		603BBF2F1FD9206F0087DC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603BBF2D1FD9206F0087DC46 /* LaunchScreen.storyboard */; };
 		603BBF371FD920A40087DC46 /* JokesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BBF361FD920A40087DC46 /* JokesTableViewController.swift */; };
 		603BBF3B1FD921100087DC46 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BBF3A1FD921100087DC46 /* Joke.swift */; };
 		603BBF3D1FD921430087DC46 /* JokeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BBF3C1FD921430087DC46 /* JokeStore.swift */; };
@@ -19,10 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1820A1C5201B8D0F007D11D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603BBF211FD9206F0087DC46 /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603BBF241FD9206F0087DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603BBF2B1FD9206F0087DC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		603BBF2E1FD9206F0087DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603BBF301FD9206F0087DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		603BBF361FD920A40087DC46 /* JokesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTableViewController.swift; sourceTree = "<group>"; };
 		603BBF3A1FD921100087DC46 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 				603BBF381FD920E70087DC46 /* Models */,
 				603BBF391FD920F10087DC46 /* Controllers */,
 				603BBF2B1FD9206F0087DC46 /* Assets.xcassets */,
-				603BBF2D1FD9206F0087DC46 /* LaunchScreen.storyboard */,
+				1820A1C5201B8D0F007D11D1 /* LaunchScreen.storyboard */,
 				603BBF301FD9206F0087DC46 /* Info.plist */,
 			);
 			path = DadJokes;
@@ -167,8 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603BBF2F1FD9206F0087DC46 /* LaunchScreen.storyboard in Resources */,
 				60ECF9401FD924FF0014AF32 /* JokesDetailViewController.storyboard in Resources */,
+				1820A1C6201B8D0F007D11D1 /* LaunchScreen.storyboard in Resources */,
 				603BBF3F1FD923FE0087DC46 /* JokesTableViewController.storyboard in Resources */,
 				603BBF2C1FD9206F0087DC46 /* Assets.xcassets in Resources */,
 			);
@@ -190,17 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		603BBF2D1FD9206F0087DC46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				603BBF2E1FD9206F0087DC46 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		603BBF311FD9206F0087DC46 /* Debug */ = {
