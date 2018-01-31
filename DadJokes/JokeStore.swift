@@ -32,6 +32,8 @@ struct JokeStore {
   private var storage: [Joke] = [
     Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
+    Joke(description: "You should be careful with functions that return a value...",
+         punchline: "In fact, I would just a void them."),
   ]
 }
 
