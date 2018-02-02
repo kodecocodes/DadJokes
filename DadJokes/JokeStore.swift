@@ -34,7 +34,8 @@ struct JokeStore {
     Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
     Joke(description: "Knock knock ! who's there ", punchline: "Go f**k yourself"),
-  ]
+    Joke(description: "Knock knock ! who's there ", punchline: "Go f**k yourself"),
+    ]
 }
 
 extension JokeStore: RandomAccessCollection {
