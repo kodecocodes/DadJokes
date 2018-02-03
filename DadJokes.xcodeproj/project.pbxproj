@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1820A1C6201B8D0F007D11D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820A1C5201B8D0F007D11D1 /* LaunchScreen.storyboard */; };
+		30410D0A2026066F00034FB0 /* DadJokes.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 30410D092026066F00034FB0 /* DadJokes.xcscheme */; };
 		30AC07A72026037F00272BC9 /* DadJokes.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 30AC07A62026037F00272BC9 /* DadJokes.xcscheme */; };
 		603BBF251FD9206F0087DC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BBF241FD9206F0087DC46 /* AppDelegate.swift */; };
 		603BBF2C1FD9206F0087DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603BBF2B1FD9206F0087DC46 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		1820A1C5201B8D0F007D11D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30410D092026066F00034FB0 /* DadJokes.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DadJokes.xcscheme; sourceTree = "<group>"; };
 		30AC07A62026037F00272BC9 /* DadJokes.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DadJokes.xcscheme; sourceTree = "<group>"; };
 		603BBF211FD9206F0087DC46 /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603BBF241FD9206F0087DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		603BBF231FD9206F0087DC46 /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				30410D092026066F00034FB0 /* DadJokes.xcscheme */,
 				603BBF241FD9206F0087DC46 /* AppDelegate.swift */,
 				603BBF3C1FD921430087DC46 /* JokeStore.swift */,
 				603BBF381FD920E70087DC46 /* Models */,
@@ -174,6 +177,7 @@
 				1820A1C6201B8D0F007D11D1 /* LaunchScreen.storyboard in Resources */,
 				603BBF3F1FD923FE0087DC46 /* JokesTableViewController.storyboard in Resources */,
 				30AC07A72026037F00272BC9 /* DadJokes.xcscheme in Resources */,
+				30410D0A2026066F00034FB0 /* DadJokes.xcscheme in Resources */,
 				603BBF2C1FD9206F0087DC46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
