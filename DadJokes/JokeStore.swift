@@ -33,6 +33,7 @@ struct JokeStore {
     Joke(description: "Why don't programmers like being outside?", punchline: "Because there's too many bugs"),
     Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
+    Joke(description: "Why do programmers confuse Halloween with Christmas", punchline: "Because OCT 31 = DEC 25")
   ]
 }
 
