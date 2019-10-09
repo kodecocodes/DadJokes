@@ -35,6 +35,9 @@ struct JokeStore {
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
     Joke(description: "You should be careful with functions that return a value...",
          punchline: "In fact, I would just a void them."),
+    Joke(description: "Why do developers do Java?", punchline: "Because they don't C#")
+    Joke(description: "Why did the programmer cross the road?", punchline: "To Git to the other side"),
+    Joke(description: "What did the atom say to the angry mass?", punchline: "What's the matter with you!")
   ]
 }
 
