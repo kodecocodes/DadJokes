@@ -34,6 +34,7 @@ struct JokeStore {
     Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
     Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
     Joke(description: "Why did the programmer cross the road?", punchline: "To Git to the other side"),
+    Joke(description: "What did the atom say to the angry mass?", punchline: "What's the matter with you!")
   ]
 }
 
