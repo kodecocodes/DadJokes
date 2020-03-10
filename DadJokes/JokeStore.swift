@@ -27,39 +27,40 @@
 /// THE SOFTWARE.
 
 struct JokeStore {
-  
-  /// we NEED more jokes here!!!
-  private var storage: [Joke] = [
-    Joke(description: "Why don't programmers like being outside?", punchline: "Because there's too many bugs"),
-    Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
-    Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
-    Joke(description: "You should be careful with functions that return a value...",
-         punchline: "In fact, I would just a void them."),
-    Joke(description: "Why do developers do Java?", punchline: "Because they don't C#")
-    Joke(description: "Why did the programmer cross the road?", punchline: "To Git to the other side"),
-    Joke(description: "What did the atom say to the angry mass?", punchline: "What's the matter with you!")
-  ]
+    
+    /// we NEED more jokes here!!!
+    private var storage: [Joke] = [
+        Joke(description: "Why does the sun rise in the east, and set in the west?", punchline: "It works, don't touch it!"),
+        Joke(description: "Why don't programmers like being outside?", punchline: "Because there's too many bugs"),
+        Joke(description: "Why don't bachelors like Git?", punchline: "Because they are afraid to commit."),
+        Joke(description: "What does the father play with his son?", punchline: "Try Catch"),
+        Joke(description: "You should be careful with functions that return a value...",
+             punchline: "In fact, I would just a void them."),
+        Joke(description: "Why do developers do Java?", punchline: "Because they don't C#"),
+        Joke(description: "Why did the programmer cross the road?", punchline: "To Git to the other side"),
+        Joke(description: "What did the atom say to the angry mass?", punchline: "What's the matter with you!")
+    ]
 }
 
 extension JokeStore: RandomAccessCollection {
-  
-  var startIndex: Int {
-    return storage.startIndex
-  }
-  
-  var endIndex: Int {
-    return storage.endIndex
-  }
-  
-  func index(before index: Int) -> Int {
-    return storage.index(before: index)
-  }
-  
-  func index(after index: Int) -> Int {
-    return storage.index(after: index)
-  }
-  
-  subscript(index: Int) -> Joke {
-    return storage[index]
-  }
+    
+    var startIndex: Int {
+        return storage.startIndex
+    }
+    
+    var endIndex: Int {
+        return storage.endIndex
+    }
+    
+    func index(before index: Int) -> Int {
+        return storage.index(before: index)
+    }
+    
+    func index(after index: Int) -> Int {
+        return storage.index(after: index)
+    }
+    
+    subscript(index: Int) -> Joke {
+        return storage[index]
+    }
 }
