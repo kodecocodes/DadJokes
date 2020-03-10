@@ -27,7 +27,7 @@
 /// THE SOFTWARE.
 
 struct Joke {
-  
-  let description: String
-  let punchline: String
+    
+    let description: String
+    let punchline: String
 }
