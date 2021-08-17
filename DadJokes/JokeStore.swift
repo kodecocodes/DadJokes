@@ -38,7 +38,8 @@ struct JokeStore {
     Joke(description: "Why do developers do Java?", punchline: "Because they don't C#"),
     Joke(description: "Why did the programmer cross the road?", punchline: "To Git to the other side"),
     Joke(description: "What did the atom say to the angry mass?", punchline: "What's the matter with you!"),
-    Joke(description: "What's the object-oriented way to become wealthy?", punchline: "Inheritance")
+    Joke(description: "What's the object-oriented way to become wealthy?", punchline: "Inheritance"),
+    Joke(description: "Why did the programmer quit his job?", punchline: "Because he didn't get arrays")
   ]
 }
 
